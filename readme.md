@@ -93,7 +93,7 @@ resJson, err := smClient.VerifySmCode("获取的验证码")   // 返回值resJso
 
 ## 测试用例代码
 
-- 完整代码: https://github.com/daniuEvan/go-wysm/wysm/wysm_test.go
+- 完整代码: https://github.com/daniuEvan/go-wysm/blob/master/wysm/wysm_test.go
 
   ```go
   package wysm
