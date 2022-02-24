@@ -75,7 +75,7 @@ resJson, err := smClient.VerifySmCode("获取的验证码")   // 返回值resJso
 
 - 更多返回码请参考: https://doc.yunxin.163.com/docs/TM5MzM5Njk/Tk5ODIzNjk
 
-- 完整示例
+- 完整校验短信验证码示例
 
   ```golang
   	smClient := wysm.NewSmClient()
