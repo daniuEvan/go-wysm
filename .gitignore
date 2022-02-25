@@ -19,3 +19,5 @@ test*
 log/
 test/
 *.log
+
+*_test.go

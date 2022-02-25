@@ -40,8 +40,6 @@ type smClient struct {
 const (
 	contentType     = "application/x-www-form-urlencoded;charset=utf-8" // Content-Type
 	sendSmBaseUrl   = "https://api.netease.im/sms/sendcode.action"      // 网易云信获取验证码 url
-	appKey          = "网易云信AppKey"                                      // 网易云信 appKey
-	appSecret       = "网易云信AppSecret"                                   // 网易云信 appSecret
 	smTemplateCode  = 19506299                                          // 网易云信 smTemplateCode
 	codeLen         = 4                                                 // 验证码的长度
 	verifySmBaseUrl = "https://api.netease.im/sms/verifycode.action"    // 网易云信校验验证码 url
@@ -51,8 +49,6 @@ func initSmConfig() *smConfig {
 	return &smConfig{
 		contentType:     contentType,
 		sendSmBaseUrl:   sendSmBaseUrl,
-		AppSecret:       appSecret,
-		AppKey:          appKey,
 		SmTemplateCode:  smTemplateCode,
 		CodeLen:         codeLen,
 		verifySmBaseUrl: verifySmBaseUrl,
