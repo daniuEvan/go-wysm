@@ -130,7 +130,7 @@ resJson, err := smClient.VerifySmCode("获取的验证码")   // 返回值resJso
   	}
   	fmt.Println(res)
   }
-  
+   
   ```
  
    
